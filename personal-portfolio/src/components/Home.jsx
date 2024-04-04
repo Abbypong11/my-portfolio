@@ -1,6 +1,7 @@
 import React from "react";
 import HeroImage from "../assets/blackgirl.jpg";
 import { RiArrowRightSLine } from "react-icons/ri";
+import { Link } from "react-scroll";
 
 const Home = () => {
   return (
@@ -16,19 +17,24 @@ const Home = () => {
           <p className="text-gray-500 py-4 max-w-md">
             Welcome to Gail, your gateway to the digital realm where creativity
             meets functionality. As a junior web developer, I am dedicated to
-            crafting engaging and user-friendly experiences on the web. I specialize in
-            front-end development, creating visually stunning websites that
-            captivate audiences. Explore my portfolio to see how I transform
-            ideas into interactive realities, and let's collaborate to bring
-            your vision to the digital world.
+            crafting engaging and user-friendly experiences on the web. I
+            specialize in front-end development, creating visually stunning
+            websites that captivate audiences. Explore my portfolio to see how I
+            transform ideas into interactive realities, and let's collaborate to
+            bring your vision to the digital world.
           </p>
           <div>
-            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to blue-500 cursor-pointer">
+            <Link
+              to="portfolio"
+              smooth
+              duration={500}
+              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to blue-500 cursor-pointer"
+            >
               Portfolio
-              <span className="group-hover:rotate-90 duration-300" >
-                <RiArrowRightSLine size={20} className="ml-1"/>
+              <span className="group-hover:rotate-90 duration-300">
+                <RiArrowRightSLine size={20} className="ml-1" />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         <div>
