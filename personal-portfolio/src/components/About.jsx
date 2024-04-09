@@ -8,11 +8,16 @@ const About = () => {
                <p className='text-4xl font-bold inline border-b-4 border-gray-500 '>About</p> 
             </div>
 
-            <p className='text-xl mt-20'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur magni sed voluptates facilis tempore excepturi aspernatur ex nostrum voluptatibus cum ab nulla provident neque corrupti ipsa, odit soluta aut saepe!</p>
+            <p className='text-xl mt-20'> As a junior web developer, I am dedicated to
+            crafting engaging and user-friendly experiences on the web. I
+            specialize in front-end development, creating visually stunning
+            websites that captivate audiences. .!</p>
 
             <br />
 
-            <p className='text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque eveniet quas praesentium ullam. Quis molestias, ab, magni non ea debitis reprehenderit assumenda officiis numquam, blanditiis quas illo fuga. Cumque, maiores.</p>
+            <p className='text-xl'>Explore my portfolio to see how I
+            transform ideas into interactive realities, and let's collaborate to
+            bring your vision to the digital world</p>
         </div>
     </div>
   )

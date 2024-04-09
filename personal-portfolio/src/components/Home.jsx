@@ -11,17 +11,12 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white pt-32">
-            I am a Full Stack Developer
-          </h2>
-          <p className="text-gray-500 py-4 max-w-md">
-            Welcome to Gail, your gateway to the digital realm where creativity
-            meets functionality. As a junior web developer, I am dedicated to
-            crafting engaging and user-friendly experiences on the web. I
-            specialize in front-end development, creating visually stunning
-            websites that captivate audiences. Explore my portfolio to see how I
-            transform ideas into interactive realities, and let's collaborate to
-            bring your vision to the digital world.
+          <h3 className="text-4xl sm:text-7xl font-bold text-white pt-32">
+            Hi! I'm Abigail 
+          </h3>
+          <p className="text-gray-500 py-8 max-w-md">
+            Passionate about creating engaging and user-friendly web
+            experiences.
           </p>
           <div>
             <Link
@@ -30,7 +25,7 @@ const Home = () => {
               duration={500}
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to blue-500 cursor-pointer"
             >
-              Portfolio
+              Projects
               <span className="group-hover:rotate-90 duration-300">
                 <RiArrowRightSLine size={20} className="ml-1" />
               </span>
