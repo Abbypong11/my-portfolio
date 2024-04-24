@@ -1,7 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/footer";
-// import Experience from "./components/Experience";
 import Home from "./components/Home";
 import Navbar from "./components/navbar";
 import Projects from "./components/Projects";
@@ -18,7 +17,6 @@ function App() {
 <About/>
 <Projects/>
 <Skills/>
-{/* <Experience/> */}
 <Contact/>
 <Footer/>
 
